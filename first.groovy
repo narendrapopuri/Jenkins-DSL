@@ -1,13 +1,17 @@
-job('firstgroovyjob') {
-    logRotator(-1, 10)
-    jdk('java 11')
+foleder('release') {
+    displayName('Relelase')
+
+    job('firstgroovyjob') {
+        logRotator(-1, 10)
+        jdk('java 11')
     scm{
         github('narendrapopuri/Jenkins-DSL', 'main')
-    }
+        }
     triggers{
-        githubPush()
-    }
+           githubPush()
+            }
     steps{
-        shell('echo hello world')
-    }
+                shell('echo hello world')
+            }
+        }
 }
