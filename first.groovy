@@ -1,4 +1,4 @@
-foleder('release') {
+folder('release') {
     displayName('Relelase')
 
     job('firstgroovyjob') {
