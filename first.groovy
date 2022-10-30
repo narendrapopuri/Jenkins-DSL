@@ -11,7 +11,7 @@ folder('release') {
            githubPush()
             }
     steps{
-                shell('echo hello world')
+                powerShell('echo hello world')
             }
         }
 }
