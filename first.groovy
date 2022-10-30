@@ -8,7 +8,6 @@ job('firstgroovyjob') {
         githubPush()
     }
     steps{
-        shell(echo 'hello world')
+        shell('echo hello world')
     }
-
 }
