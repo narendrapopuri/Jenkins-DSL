@@ -1,6 +1,6 @@
 job('firstgroovyjob') {
     logRotator(-1, 10)
-    jdk('java 8')
+    jdk('java 11')
     scm{
         github('narendrapopuri/Jenkins-DSL', 'main')
     }
